@@ -1,6 +1,8 @@
 package com.browserstack;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Rotatable;
+import org.openqa.selenium.ScreenOrientation;
 import org.openqa.selenium.WebElement;
 
 import org.testng.Assert;

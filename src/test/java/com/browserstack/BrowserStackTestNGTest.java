@@ -16,6 +16,8 @@ import org.json.simple.JSONArray;
 import org.json.simple.parser.JSONParser;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.interactions.internal.TouchAction;
+import org.openqa.selenium.interactions.touch.TouchActions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 

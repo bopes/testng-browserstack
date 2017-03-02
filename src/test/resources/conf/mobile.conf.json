@@ -1,0 +1,19 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "user": "BROWSERSTACK_USERNAME",
+  "key": "BROWSERSTACK_ACCESS_KEY",
+
+  "capabilities": {
+    "build": "testng-browserstack",
+    "name": "mobile_test",
+    "browserstack.debug": true
+  },
+
+  "environments": {
+    "mobile": {
+      "browserName": "iPhone",
+      "platform": "MAC",
+      "device": "iPhone 6"
+    }
+  }
+}
